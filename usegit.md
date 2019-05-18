@@ -6,7 +6,7 @@
 - 添加改动到git暂存区（Index）
 > git add <filename>
 
-- 提交改动到HEAD
+- 提交改动到HEAD,即版本库中
 > git commit -m "description about this commit"
 
 - 查看当前git仓库的状态
