@@ -19,7 +19,7 @@
 > git reset --hard commit_id
 
 - 查看提交历史
-> git lod
+> git log
 
 - 重返未来，需要先查看历史命令
 > git reflog
