@@ -15,3 +15,11 @@
 - 如果git status显示工作区文件已经被修改，使用diff查看被修改的内容
 > git diff
 
+- 版本回退
+> git reset --hard commit_id
+
+- 查看提交历史
+> git lod
+
+- 重返未来，需要先查看历史命令
+> git reflog
