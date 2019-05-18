@@ -1,4 +1,4 @@
-#git和github学习笔记
+# git和github学习笔记
 
 - 初始化git仓库
 > git init
@@ -23,3 +23,15 @@
 
 - 重返未来，需要先查看历史命令
 > git reflog
+
+- 舍弃工作区的修改，也相当于回到于目前版本库中最新版本的内容
+> git checkout -- <filename>
+
+- 撤回已经添加到暂存区的修改
+> git reset HEAD <filename>
+
+- 添加远程库
+> git remote add origin git@github.com:name/xxx.git
+
+- 把本地库内容推送到远程仓库，首次推动时加 -u 参数，可以把本地master分支和远程master分支关联起来
+> git push -u origin master
