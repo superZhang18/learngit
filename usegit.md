@@ -31,7 +31,10 @@
 > git reset HEAD <filename>
 
 - 添加远程库
-> git remote add origin git@github.com:name/xxx.git
+> git remote add origin git@github.com:server-name/path/repo-name.git
 
 - 把本地库内容推送到远程仓库，首次推动时加 -u 参数，可以把本地master分支和远程master分支关联起来
 > git push -u origin master
+
+- 从远程库克隆，即先建立远程库，然后克隆到本地
+> git clone git@github.com:server-name/path/repo-name.git
